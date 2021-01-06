@@ -23,5 +23,4 @@ Developer-Frontend: Florian
 DevOps: James
 
 
-Scrum Master / Product Owner: 
-
+Scrum Master / Product Owner: Florian
