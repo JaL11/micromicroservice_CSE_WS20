@@ -9,8 +9,10 @@ Video calls: Jitsi
 
 Chat: Telegram
 
+
 #### Project development:
 Kanban: clubhouse.io
+
 
 
 #### Roles:
@@ -19,6 +21,7 @@ Developer-Backend: Oliver
 Developer-Frontend: Florian
 
 DevOps: James
+
 
 Scrum Master / Product Owner: 
 
