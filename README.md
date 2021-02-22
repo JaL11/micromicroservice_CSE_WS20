@@ -1,5 +1,28 @@
 # micromicroservice_CSE_WS20
 WS20 CSE microservice implimentation with the GCP/microservices-demo
+This implementation offers a Chatbot written in Python using State of the art NLP library [spacy](https://github.com/explosion/spaCy)
+and a custom from scratch trained language model.
+
+## Features
+
+- Chatbot that you can talk to!
+- Supports the english language
+- Server that runs over GRPC
+- Custom pretrained Convolutional Neural Network Model for the online shop
+- State-of-the-art speed
+- Deployment ready
+- Live updated monitoring for CPU, RAM and performance time
+- Scalable, expandable
+
+While we offer custom model that was specifically generated for this task, it is by no way perfect and is meant to be used as a base model that is supposed to be expanded and improved. All the necessary files to create and expand this model are found in `models\` where the chatette.txt can be expanded to generate better Training data for the machine learning model. As of the moment the model only supports the actions Help, Welcome(small talk) and Fun fact, while shopping recommendation is implemented, the trainingdata for the model must be adjusted for it to classify that correctly.
+
+## Important modules
+`chhatbot_server.py` launches the GRPC Server and calls all functions for the chatbot to work. However we do recommend using this in a kubernetes environments, as it was developed with that in mind, see below for further information for that.
+`meta_engine.py` is where the magic happens! This handles the user requests and chooses the actions.
+`monitor.py` is a quality feature which allows live benchmarking in a parallel thread.
+
+More information how the code works and runs can be seen inside the files as all have been documented with PEP8 in mind and Google style docstrings that describe their functionality.
+
 
 ### Installation
 This repository is based on a [fork](https://github.com/JaL11/microservices-demo) of [Google's microservice-demo](https://github.com/GoogleCloudPlatform/microservices-demo) and in order to fully test it's functionality it needs to be run using the install script install.sh
