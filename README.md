@@ -1,14 +1,14 @@
 # micromicroservice_CSE_WS20
 WS20 CSE microservice implimentation with the GCP/microservices-demo
-This implementation offers a Chatbot written in Python using State of the art NLP [spacy](https://github.com/explosion/spaCy)
-and a custom from scrap trained language model.
+This implementation offers a Chatbot written in Python using State of the art NLP library [spacy](https://github.com/explosion/spaCy)
+and a custom from scratch trained language model.
 
 ## Features
 
 - Chatbot that you can talk to!
 - Supports the english language
 - Server that runs over GRPC
-- Custom pretrained Convolutional Neural Network Model for an online shop
+- Custom pretrained Convolutional Neural Network Model for the online shop
 - State-of-the-art speed
 - Deployment ready
 - Live updated monitoring for CPU, RAM and performance time
