@@ -12,7 +12,7 @@ git clone https://github.com/JaL11/microservices-demo
 
 #move chatbotservice into microservices/src
 echo "moving things around..."
-mv chatbotservice microservices-demo/src
+mv chatbotservice microservices-demo/src/
 
 #change directory to microservices-demo
 echo "changing directory..."

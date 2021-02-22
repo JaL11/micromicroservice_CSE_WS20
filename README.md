@@ -27,6 +27,37 @@ docker exec chatbot /bin/grpc_health_probe -addr=:9090
 ```
 can also be used to check the containers health using the [grpc-health-probe](https://github.com/grpc-ecosystem/grpc-health-probe)
 
+## Running chatbot integrated in the kubernetes microservices demo
+
+#### Install script
+Installing the project to run using kubernetes together with the demo project 
+
+Due to the use of two repositories the installation process is a bit unsual.
+Before running the install script move the project repository (micromicroservice_CSE_WS20) to a new folder for example chatbot_demo
+the command `mkdir ../chatbot_demo` could be used to creat such a folder and then copy the micromicroservice_CSE_WS20 to the new folder for example with 
+```
+cd ../ && mv micromicroservice_CSE_WS20 chatbot_demo/
+```
+At that point run:
+```
+./micromicroservice_CSE_WS20/install.sh
+```
+
+The install script clones the demo fork and moves this repository into the `microservices-demo/src/` folder
+
+
+After minikube is installed and correctly configured, start a new minikube node with
+```
+minikube start --cpus=4 --memory=4096 --disk-size 32g
+```
+then start the local cluster using skaffold
+```
+skaffold run
+```
+### Troubleshooting
+Sometimes when running skaffold run the message `13/13 deployments failed` will appear.
+if this happens just rerun `skaffold run` and everything should be working after that.
+
 ### Technology decisions:
 
 #### Communication:
