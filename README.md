@@ -2,7 +2,7 @@
 WS20 CSE microservice implimentation with the GCP/microservices-demo
 
 ### Installation
-This repository is based on a [fork](https://github.com/JaL11/microservices-demo) and in order to fully test it's functionality it needs to be run using the install script install.sh
+This repository is based on a [fork](https://github.com/JaL11/microservices-demo) of [Google's microservice-demo](https://github.com/GoogleCloudPlatform/microservices-demo) and in order to fully test it's functionality it needs to be run using the install script install.sh
 
 This project was created to run on a Linux operating system and [Arch Linux](archlinux.org) was used for testing purposes.
 
