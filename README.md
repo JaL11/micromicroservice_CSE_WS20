@@ -46,6 +46,3 @@ Developer-Backend: Oliver
 Developer-Frontend: Florian
 
 DevOps: James
-
-
-(Scrum Master / Product Owner: Florian)
