@@ -38,8 +38,9 @@ the command `mkdir ../chatbot_demo` could be used to creat such a folder and the
 ```
 cd ../ && mv micromicroservice_CSE_WS20 chatbot_demo/
 ```
-At that point run:
+At that point the install script install.sh must be made executable and can then be run:
 ```
+chmod +x /micromicroservice_CSE_WS20/install.sh
 ./micromicroservice_CSE_WS20/install.sh
 ```
 
