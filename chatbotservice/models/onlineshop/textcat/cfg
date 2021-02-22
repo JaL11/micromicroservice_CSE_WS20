@@ -1,0 +1,11 @@
+{
+  "exclusive_classes":true,
+  "labels":[
+    "Welcome",
+    "Recommend",
+    "Help",
+    "Fun_Fact"
+  ],
+  "pretrained_vectors":null,
+  "pretrained_dims":null
+}
