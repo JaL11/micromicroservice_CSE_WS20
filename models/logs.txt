@@ -1,0 +1,11 @@
+22/02/2021 07:20:27 PM INFO:Start spacy model training
+22/02/2021 07:20:28 PM INFO:Spacy is using GPU: True
+22/02/2021 07:20:28 PM INFO:PyTorch version 1.7.1+cu110 available.
+22/02/2021 07:20:30 PM INFO:Created blank 'en' model
+22/02/2021 07:20:30 PM INFO:Started training intents...
+22/02/2021 07:20:41 PM INFO:Finished 0 iteration for text classification with {'textcat': 7.724250128143467} losses
+22/02/2021 07:20:51 PM INFO:Finished 1 iteration for text classification with {'textcat': 2.553078916712721} losses
+22/02/2021 07:21:02 PM INFO:Finished 2 iteration for text classification with {'textcat': 0.5360494980751603} losses
+22/02/2021 07:21:02 PM INFO:Finished training intents...
+22/02/2021 07:21:02 PM INFO:Saved model to onlineshop
+22/02/2021 07:21:02 PM INFO:Finished training, saved model at onlineshop
