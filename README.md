@@ -16,6 +16,8 @@ and a custom from scratch trained language model.
 
 While we offer custom model that was specifically generated for this task, it is by no way perfect and is meant to be used as a base model that is supposed to be expanded and improved. All the necessary files to create and expand this model are found in `models\` where the chatette.txt can be expanded to generate better Training data for the machine learning model. As of the moment the model only supports the actions Help, Welcome(small talk) and Fun fact, while shopping recommendation is implemented, the trainingdata for the model must be adjusted for it to classify that correctly.
 
+Frontend integration was completed solely in the [fork](https://github.com/JaL11/microservices-demo) and all the DevOps tools (kubernetes and skaffold) were also used from the demo project. Docker was also used for containerisation and testing purposes.
+
 ## Important modules
 `chhatbot_server.py` launches the GRPC Server and calls all functions for the chatbot to work. However we do recommend using this in a kubernetes environments, as it was developed with that in mind, see below for further information for that.
 `meta_engine.py` is where the magic happens! This handles the user requests and chooses the actions.
