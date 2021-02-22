@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 #creat chatbotservice directory
 mkdir chatbotservice
