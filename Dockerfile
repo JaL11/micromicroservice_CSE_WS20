@@ -23,8 +23,8 @@ RUN pip install -r requirements.txt
 
 
 # set listen port
-ENV PORT "9090"
-EXPOSE 9090
+ENV PORT "9091"
+EXPOSE 9091
 
 #Start container with "python3 chatbot_server.py"
 ENTRYPOINT ["python3", "chatbot_server.py"]

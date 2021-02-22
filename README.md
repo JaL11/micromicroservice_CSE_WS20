@@ -23,7 +23,7 @@ docker exec chatbot cat logs.txt
 ```
 to see that status of the chatbot engine
 ```
-docker exec chatbot /bin/grpc_health_probe -addr=:9090
+docker exec chatbot /bin/grpc_health_probe -addr=:9091
 ```
 can also be used to check the containers health using the [grpc-health-probe](https://github.com/grpc-ecosystem/grpc-health-probe)
 

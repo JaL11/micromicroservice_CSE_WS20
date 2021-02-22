@@ -48,7 +48,7 @@ class ChatbotService(demo_pb2_grpc.ChatbotServiceServicer):
 
 
 if __name__ == "__main__":
-    """ Starts a chatbot server over grpc at port 9090
+    """ Starts a chatbot server over grpc at port 9091
     """
     global chatbot
     global monitor
@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
     chatbot = MetaEngine()
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
-    port = "9090"
+    port = "9091"
     
     service = ChatbotService()
     demo_pb2_grpc.add_ChatbotServiceServicer_to_server(service, server)
