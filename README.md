@@ -72,9 +72,9 @@ Kanban: [clubhouse.io](https://www.clubhouse.io)
 
 
 #### Roles:
-Developer-Backend: Oliver
+Developer-Backend: Oliver @acermb
 
-Developer-Frontend: Florian
+Developer-Frontend: Florian @fkremser
 
 DevOps: James
 
