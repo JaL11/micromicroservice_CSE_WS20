@@ -5,14 +5,18 @@ and a custom from scrap trained language model.
 
 ## Features
 
+- Chatbot that you can talk to!
 - Supports the english language
 - Server that runs over GRPC
 - Custom pretrained Convolutional Neural Network Model for an online shop
 - State-of-the-art speed
 - Deployment ready
+- Live updated monitoring for CPU, RAM and performance time
 - Scalable, expandable
 
 While we offer custom model that was specifically generated for this task, it is by no way perfect and is meant to be used as a base model that is supposed to be expanded and improved. All the necessary files to create and expand this model are found in `models\` where the chatette.txt can be expanded to generate better Training data for the machine learning model.
+
+If you want to manually start this application `chhatbot_server.py\` is where the magic happens! However we do recommend using this in a kubernetes environments, as it was developed with that in mind, see below for further information for that.
 
 ### Installation
 This repository is based on a [fork](https://github.com/JaL11/microservices-demo) and in order to fully test it's functionality it needs to be run using the install script install.sh
