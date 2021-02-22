@@ -14,7 +14,7 @@ and a custom from scratch trained language model.
 - Live updated monitoring for CPU, RAM and performance time
 - Scalable, expandable
 
-While we offer custom model that was specifically generated for this task, it is by no way perfect and is meant to be used as a base model that is supposed to be expanded and improved. All the necessary files to create and expand this model are found in `models\` where the chatette.txt can be expanded to generate better Training data for the machine learning model.
+While we offer custom model that was specifically generated for this task, it is by no way perfect and is meant to be used as a base model that is supposed to be expanded and improved. All the necessary files to create and expand this model are found in `models\` where the chatette.txt can be expanded to generate better Training data for the machine learning model. As of the moment the model only supports the actions Help, Welcome(small talk) and Fun fact, while shopping recommendation is implemented, the trainingdata for the model must be adjusted for it to classify that correctly.
 
 More information how the code itself works and runs can be seen inside the files as all have been documented with PEP8 in mind and Google style docstrings that describe their functionality.
 If you want to manually start this application `chhatbot_server.py` is where the magic happens! However we do recommend using this in a kubernetes environments, as it was developed with that in mind, see below for further information for that.
