@@ -1,5 +1,18 @@
 # micromicroservice_CSE_WS20
 WS20 CSE microservice implimentation with the GCP/microservices-demo
+This implementation offers a Chatbot written in Python using State of the art NLP [spacy](https://github.com/explosion/spaCy)
+and a custom from scrap trained language model.
+
+## Features
+
+- Supports the english language
+- Server that runs over GRPC
+- Custom pretrained Convolutional Neural Network Model for an online shop
+- State-of-the-art speed
+- Deployment ready
+- Scalable, expandable
+
+While we offer custom model that was specifically generated for this task, it is by no way perfect and is meant to be used as a base model that is supposed to be expanded and improved. All the necessary files to create and expand this model are found in `models\` where the chatette.txt can be expanded to generate better Training data for the machine learning model.
 
 ### Installation
 This repository is based on a [fork](https://github.com/JaL11/microservices-demo) and in order to fully test it's functionality it needs to be run using the install script install.sh
